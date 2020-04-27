@@ -34,7 +34,7 @@
 }
 
 body {
-    background-color: #eaeaea;
+    background-color: #e0e0e0;
     margin: 0;
     color: #34495e;
 }
@@ -250,7 +250,7 @@ mark {
 }
 
 .bg-color {
-    background-image: linear-gradient(to right, #4cbf30 0%, #0f9d58 100%);
+    background-image: linear-gradient(to right, #3858c5 0%, #ff484f 100%);
 }
 
 .text-color {
