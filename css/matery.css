@@ -266,7 +266,7 @@ mark {
     position: fixed;
     bottom: 0;
     z-index: 300;
-    background: linear-gradient(to right, #4cbf30 0%, #0f9d58 100%);
+    background: linear-gradient(to right, #d6464c 0%, #ff0000 100%);
     opacity: 0.8;
 }
 
@@ -559,10 +559,11 @@ header .go-back i {
 .post-cover {
     height: 40vh !important;
 }
-
+/*动画变色  -webkit-animation: rainbow 60s infinite;
+            animation: rainbow 60s infinite;*/
 .bg-cover:after {
-    -webkit-animation: rainbow 60s infinite;
-    animation: rainbow 60s infinite;
+    -webkit-animation: rainbow  infinite;
+    animation: rainbow  infinite;
 }
 
 .bg-cover:before,
